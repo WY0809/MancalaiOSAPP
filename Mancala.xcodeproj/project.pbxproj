@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BF345E329E451C1008C15FD /* MancalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF345E229E451C1008C15FD /* MancalaApp.swift */; };
+		3BF345E529E451C1008C15FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF345E429E451C1008C15FD /* ContentView.swift */; };
+		3BF345E729E451CB008C15FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF345E629E451CB008C15FD /* Assets.xcassets */; };
+		3BF345EA29E451CB008C15FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF345E929E451CB008C15FD /* Preview Assets.xcassets */; };
+		3BF345FA29E4521E008C15FD /* AIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF345F229E4521E008C15FD /* AIView.swift */; };
+		3BF345FB29E4521E008C15FD /* sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF345F329E4521E008C15FD /* sound.swift */; };
+		3BF345FC29E4521E008C15FD /* playView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF345F429E4521E008C15FD /* playView.swift */; };
+		3BF345FD29E4521E008C15FD /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BF345F629E4521E008C15FD /* buttonClick.mp3 */; };
+		3BF345FE29E4521E008C15FD /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BF345F729E4521E008C15FD /* background.mp3 */; };
+		3BF345FF29E4521E008C15FD /* HowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF345F829E4521E008C15FD /* HowView.swift */; };
+		3BF3460029E4521E008C15FD /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF345F929E4521E008C15FD /* test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BF345DF29E451C1008C15FD /* Mancala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mancala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF345E229E451C1008C15FD /* MancalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaApp.swift; sourceTree = "<group>"; };
+		3BF345E429E451C1008C15FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BF345E629E451CB008C15FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF345E929E451CB008C15FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BF345EB29E451CB008C15FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF345F229E4521E008C15FD /* AIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
+		3BF345F329E4521E008C15FD /* sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sound.swift; sourceTree = "<group>"; };
+		3BF345F429E4521E008C15FD /* playView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playView.swift; sourceTree = "<group>"; };
+		3BF345F629E4521E008C15FD /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
+		3BF345F729E4521E008C15FD /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		3BF345F829E4521E008C15FD /* HowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowView.swift; sourceTree = "<group>"; };
+		3BF345F929E4521E008C15FD /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF345DC29E451C1008C15FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF345D629E451C1008C15FD = {
+			isa = PBXGroup;
+			children = (
+				3BF345E129E451C1008C15FD /* Mancala */,
+				3BF345E029E451C1008C15FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF345E029E451C1008C15FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF345DF29E451C1008C15FD /* Mancala.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF345E129E451C1008C15FD /* Mancala */ = {
+			isa = PBXGroup;
+			children = (
+				3BF345E229E451C1008C15FD /* MancalaApp.swift */,
+				3BF345E429E451C1008C15FD /* ContentView.swift */,
+				3BF345E629E451CB008C15FD /* Assets.xcassets */,
+				3BF345EB29E451CB008C15FD /* Info.plist */,
+				3BF345F229E4521E008C15FD /* AIView.swift */,
+				3BF345F829E4521E008C15FD /* HowView.swift */,
+				3BF345F429E4521E008C15FD /* playView.swift */,
+				3BF345F329E4521E008C15FD /* sound.swift */,
+				3BF345F929E4521E008C15FD /* test.swift */,
+				3BF345F529E4521E008C15FD /* Resource */,
+				3BF345E829E451CB008C15FD /* Preview Content */,
+			);
+			path = Mancala;
+			sourceTree = "<group>";
+		};
+		3BF345E829E451CB008C15FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BF345E929E451CB008C15FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BF345F529E4521E008C15FD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3BF345F629E4521E008C15FD /* buttonClick.mp3 */,
+				3BF345F729E4521E008C15FD /* background.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF345DE29E451C1008C15FD /* Mancala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF345EE29E451CB008C15FD /* Build configuration list for PBXNativeTarget "Mancala" */;
+			buildPhases = (
+				3BF345DB29E451C1008C15FD /* Sources */,
+				3BF345DC29E451C1008C15FD /* Frameworks */,
+				3BF345DD29E451C1008C15FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mancala;
+			productName = Mancala;
+			productReference = 3BF345DF29E451C1008C15FD /* Mancala.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF345D729E451C1008C15FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3BF345DE29E451C1008C15FD = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 3BF345DA29E451C1008C15FD /* Build configuration list for PBXProject "Mancala" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF345D629E451C1008C15FD;
+			productRefGroup = 3BF345E029E451C1008C15FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF345DE29E451C1008C15FD /* Mancala */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF345DD29E451C1008C15FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF345FE29E4521E008C15FD /* background.mp3 in Resources */,
+				3BF345EA29E451CB008C15FD /* Preview Assets.xcassets in Resources */,
+				3BF345E729E451CB008C15FD /* Assets.xcassets in Resources */,
+				3BF345FD29E4521E008C15FD /* buttonClick.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF345DB29E451C1008C15FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF345E529E451C1008C15FD /* ContentView.swift in Sources */,
+				3BF345FA29E4521E008C15FD /* AIView.swift in Sources */,
+				3BF345E329E451C1008C15FD /* MancalaApp.swift in Sources */,
+				3BF345FC29E4521E008C15FD /* playView.swift in Sources */,
+				3BF345FB29E4521E008C15FD /* sound.swift in Sources */,
+				3BF345FF29E4521E008C15FD /* HowView.swift in Sources */,
+				3BF3460029E4521E008C15FD /* test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BF345EC29E451CB008C15FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BF345ED29E451CB008C15FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF345EF29E451CB008C15FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mancala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mancala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mars.Mancala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BF345F029E451CB008C15FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mancala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mancala/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mars.Mancala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF345DA29E451C1008C15FD /* Build configuration list for PBXProject "Mancala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF345EC29E451CB008C15FD /* Debug */,
+				3BF345ED29E451CB008C15FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF345EE29E451CB008C15FD /* Build configuration list for PBXNativeTarget "Mancala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF345EF29E451CB008C15FD /* Debug */,
+				3BF345F029E451CB008C15FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BF345D729E451C1008C15FD /* Project object */;
+}
